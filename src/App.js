@@ -1,6 +1,7 @@
 
 import logo from './logo.svg';
 import './App.css';
+import { SocialIcon } from 'react-social-icons';
 import React, { Component } from "react";
 import {
   Route,
@@ -8,30 +9,43 @@ import {
   HashRouter
 } from "react-router-dom";
 import Home from "./Home";
-import Stuff from "./Stuff";
-import Contact from "./Contact";
+import Resume from "./Resume";
+import Projects from "./Projects";
+import About from "./About";
 
 class App extends Component {
   render() {
     return (
-     <HashRouter>
-        <div>
-          <h1>Simple SPA</h1>
+      <HashRouter>
+        <div id="main">
+         
+          <h1>Hello, I'm Mikael and I'm looking for work</h1>
+        
           <ul className="header">
-          <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/stuff">Stuff</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/resume">Resume</NavLink></li>
+            <li><NavLink to="/projects">Projects</NavLink></li>
+            <li><NavLink to="/about">About me</NavLink></li>
           </ul>
+     
           <div className="content">
-            <Route exact path="/" component={Home}/>
-            <Route path="/stuff" component={Stuff}/>
-            <Route path="/contact" component={Contact}/>
+            <Route exact path="/" component={Home} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/about" component={About} />
           </div>
+
+          <footer>
+            <SocialIcon id="icon" url="https://www.facebook.com/Mikaelsynnes" />
+            <SocialIcon id="icon" url="https://no.linkedin.com/in/mikael-synnes-0205b2152" />
+            <SocialIcon id="icon" url="https://github.com/MikaelSynnes" />
+
+          </footer>
         </div>
       </HashRouter>
     );
   }
 }
- 
+
 
 export default App;
