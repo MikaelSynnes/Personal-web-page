@@ -41,7 +41,7 @@ ul.header li a {
   color: #FFF;
   font-weight: bold;
   text-decoration: none;
-  padding: 20px;
+  padding: 15px;
   display: inline-block;
 }
 .content {
@@ -58,18 +58,16 @@ ul.header li a {
 .content li {
   margin-bottom: 10px;
 }
+
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: #ffffff;
-    
+ 
     padding-left: 0%;
     padding-right: 0%;
     margin: 0;
   }
-  ul.header.li a{
-    padding:3px;
-
   
 
-  }
 }

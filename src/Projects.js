@@ -5,8 +5,16 @@ class Projects extends Component {
     return (
       <div>
         <h2>TBD</h2>
-        <p>
-        </p>
+       
+        <ul className="sidebar">
+            <li>Home</li>
+            <li>Resume</li>
+            <li>Projects</li>
+            <li>About me</li>
+          </ul>
+     
+       
+       
       </div>
     );
   }
