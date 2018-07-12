@@ -12,6 +12,7 @@ import Home from "./Home";
 import Resume from "./Resume";
 import Projects from "./Projects";
 import About from "./About";
+import Aronvessel from "./ARONVESSEL";
 
 class App extends Component {
   render() {
@@ -33,6 +34,10 @@ class App extends Component {
             <Route path="/resume" component={Resume} />
             <Route path="/projects" component={Projects} />
             <Route path="/about" component={About} />
+           
+            <Route path="/projects/aronvessel" component={Aronvessel} />
+          
+      
           </div>
 
           <footer>
