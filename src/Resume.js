@@ -27,9 +27,10 @@ class Resume extends Component {
       <div id="info"><b>Version control: </b>  Git</div>
       <div id="info"><b>Tools: </b> Jira and Confluence</div>
 
-
-
-
+      <p></p>
+      <p></p>
+      
+      <a href="http://docdro.id/WYliiTQ"> Full resume pdf (norwegian)</a> 
      
          
       </div>
