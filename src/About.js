@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { SocialIcon } from 'react-social-icons';
  
 class About extends Component {
   render() {
@@ -10,7 +10,7 @@ class About extends Component {
         <h2>About me</h2>
         
         <p>Hello my name is Mikael, I'm a 24 year old recent graduate student within computer engineer. 
-            I live in Ålesund Norway, and have lived there my entire life. I'm a social person and enjoy being around other people in social setting.
+            I live in Ålesund Norway, and have lived there my entire life. I'm a social person and enjoy being around other people in social settings.
         </p>
             
          <p>
@@ -20,6 +20,10 @@ class About extends Component {
 
 
         </p>
+    <p></p>
+                <p> <br></br>Facebook:   <SocialIcon id="icon" url="https://www.facebook.com/Mikaelsynnes" /> </p>
+                <p>  Linkedin:   <SocialIcon id="icon" url="https://no.linkedin.com/in/mikael-synnes-0205b2152" /> </p>
+                <p>  GitHub:   <SocialIcon id="icon" url="https://github.com/MikaelSynnes" /> </p>
  
         <p></p>
         </article>

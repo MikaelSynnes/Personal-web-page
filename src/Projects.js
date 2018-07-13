@@ -13,7 +13,7 @@ class Projects extends Component {
        <aside>
         <ul className="sidebar">
         <li><NavLink to="/projects/aronvessel">AR on the vessel bridge</NavLink></li>
-            <li>TBD</li>
+            <li><NavLink to="/projects/hinder">Hinder Chat application for Android</NavLink></li>
             <li>TBD</li>
             <li>TBD</li>
           </ul>

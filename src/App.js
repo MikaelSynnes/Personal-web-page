@@ -13,6 +13,7 @@ import Resume from "./Resume";
 import Projects from "./Projects";
 import About from "./About";
 import Aronvessel from "./ARONVESSEL";
+import Hinder from "./Hinder";
 
 class App extends Component {
   render() {
@@ -36,14 +37,15 @@ class App extends Component {
             <Route path="/about" component={About} />
            
             <Route path="/projects/aronvessel" component={Aronvessel} />
+            <Route path="/projects/hinder" component={Hinder} />
           
       
           </div>
 
           <footer>
-            <SocialIcon id="icon" url="https://www.facebook.com/Mikaelsynnes" />
-            <SocialIcon id="icon" url="https://no.linkedin.com/in/mikael-synnes-0205b2152" />
-            <SocialIcon id="icon" url="https://github.com/MikaelSynnes" />
+           <SocialIcon id="icon" url="https://www.facebook.com/Mikaelsynnes" /> 
+           <SocialIcon id="icon" url="https://no.linkedin.com/in/mikael-synnes-0205b2152" /> 
+           <SocialIcon id="icon" url="https://github.com/MikaelSynnes" /> 
 
           </footer>
         </div>
