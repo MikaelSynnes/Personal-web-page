@@ -38,6 +38,10 @@ footer{
 #resume{
   padding-bottom: 20px;
 }
+#hinder img{
+  width:200px;
+ height:350px;
+}
 
 ul.header li {
   display: inline;
