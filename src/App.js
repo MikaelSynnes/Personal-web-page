@@ -20,16 +20,25 @@ class App extends Component {
     return (
       <HashRouter>
         <div id="main">
-         
-          <h1>Hello, I'm Mikael and I'm looking for work</h1>
-        
+        <header>   <img id="me" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/12813939_10154705894094741_4571816759096121461_n.jpg?_nc_cat=0&oh=08edb2503f80fc384bc74078abc773df&oe=5BE44135"/>
+   
+       
+        <h1>I'm Mikael</h1>
+          <h4>Graduate Computer engineer</h4>
+          <p>Email: MikaelSynnes@live.no <br/>
+            PhoneNumber:+4793894003 <br/>
+
+          </p>
+
+        </header>
+        <section>
           <ul className="header">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/resume">Resume</NavLink></li>
             <li><NavLink to="/projects">Projects</NavLink></li>
             <li><NavLink to="/about">About me</NavLink></li>
           </ul>
-     
+     </section>
           <div className="content">
             <Route exact path="/" component={Home} />
             <Route path="/resume" component={Resume} />

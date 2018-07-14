@@ -18,7 +18,7 @@ class Resume extends Component {
       <h3>Work Experience</h3>
        <div id="info"><b>2013-</b>   Security Guard, Security Norway</div>
        <div id="info"><b>2012-2013</b>   Retail worker Showtime Ålesund(Video rental)</div>
-       <div id="info"><b>2012-2012</b>  Retial Worker Narvesen</div>
+       <div id="info"><b>2012-2012</b>  Retail Worker Narvesen</div>
        
 
       <h3>Technology</h3>

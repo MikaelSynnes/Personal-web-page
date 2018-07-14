@@ -4,8 +4,8 @@ import { SocialIcon } from 'react-social-icons';
 class About extends Component {
   render() {
     return (
-      <div>
-      <img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/12813939_10154705894094741_4571816759096121461_n.jpg?_nc_cat=0&oh=08edb2503f80fc384bc74078abc773df&oe=5BE44135"/>
+      <div id="about">
+    {/*<img id="me"src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/12813939_10154705894094741_4571816759096121461_n.jpg?_nc_cat=0&oh=08edb2503f80fc384bc74078abc773df&oe=5BE44135"/>-->*/}
         <article> 
         <h2>About me</h2>
         
