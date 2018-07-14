@@ -6,9 +6,17 @@ body {
   margin: 0;
 
 }
-h1, h2, p, ul, li {
-  font-family: sans-serif;
+:root{
+ --color:#ff751a ;
+}
+
+h1, p, ul, li {
+  font-family: Georgia;
  
+}
+h2{
+  margin:200px;  
+  font-family: Georgia;
 }
 section{
   clear:both;
@@ -25,15 +33,7 @@ article img{
     
     
   }
-footer{
- /* background:#009999;*/
- position:absolute;
- width: 60%;
- height:60px;   /* Height of the footer */
- bottom:-1;
 
- 
-}
 
 
 .sidebar li{
@@ -49,6 +49,7 @@ header{
   padding:20px;
   border-style: outset;
  padding:40px;
+ background:var(--color);
 }
 header img{
   width:200px;
@@ -85,7 +86,7 @@ ul.header li {
   margin: 0;
 }
 ul.header {
-  background:#009999;
+  background:var(--color);
   padding: 0;
  
 }
@@ -117,6 +118,20 @@ ul.header li a {
   float:left;
 
 }
+SocialIcon{
+  position: absolute;
+}
+footer{
+   background:var(--color);
+  position:absolute;
+  width: 60%;
+  height:60px;   /* Height of the footer */
+  bottom:-1;
+  border-style: outset;
+  
+ 
+  
+ }
 
 @media only screen and (max-width: 600px) {
   body {
