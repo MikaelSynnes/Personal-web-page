@@ -7,7 +7,7 @@ body {
 
 }
 :root{
- --color:#ff751a   ;
+ --color:#ccffcc ;
 }
 
 h1, p, ul, li {
@@ -91,7 +91,7 @@ ul.header {
  
 }
 ul.header li a {
-  color: #FFF;
+  color: black;
   font-weight: bold;
   text-decoration: none;
   padding: 15px;
