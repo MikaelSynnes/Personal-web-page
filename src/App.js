@@ -14,6 +14,7 @@ import Projects from "./Projects";
 import About from "./About";
 import Aronvessel from "./ARONVESSEL";
 import Hinder from "./Hinder";
+import Webshop from "./WebShop";
 
 class App extends Component {
   render() {
@@ -47,6 +48,7 @@ class App extends Component {
            
             <Route path="/projects/aronvessel" component={Aronvessel} />
             <Route path="/projects/hinder" component={Hinder} />
+            <Route path="/projects/webshop" component={Webshop} />
           
       
           </div>
