@@ -15,13 +15,17 @@ import About from "./About";
 import Aronvessel from "./ARONVESSEL";
 import Hinder from "./Hinder";
 import Webshop from "./WebShop";
+import Colorcode from "./Colorcode";
+import Perfectworkplace from "./Perfectworkplace";
 
 class App extends Component {
   render() {
     return (
+      <html>
+     
       <HashRouter>
         <div id="main">
-        <header>   <img id="me" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/12813939_10154705894094741_4571816759096121461_n.jpg?_nc_cat=0&oh=08edb2503f80fc384bc74078abc773df&oe=5BE44135"/>
+        <header>   <img  src={require('./img/profil.jpg')}></img>
    
        
         <h1>I'm Mikael</h1>
@@ -33,6 +37,7 @@ class App extends Component {
 
         </header>
         <section>
+        
           <ul className="header">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/resume">Resume</NavLink></li>
@@ -41,6 +46,7 @@ class App extends Component {
           </ul>
      </section>
           <div className="content">
+            <div id="con">
             <Route exact path="/" component={Home} />
             <Route path="/resume" component={Resume} />
             <Route path="/projects" component={Projects} />
@@ -49,7 +55,10 @@ class App extends Component {
             <Route path="/projects/aronvessel" component={Aronvessel} />
             <Route path="/projects/hinder" component={Hinder} />
             <Route path="/projects/webshop" component={Webshop} />
-          
+            <Route path="/projects/colorcode" component={Colorcode} />
+            
+            <Route path="/projects/Perfectworkplace" component={Perfectworkplace} />
+          </div>
       
           </div>
 
@@ -61,6 +70,7 @@ class App extends Component {
           </footer>
         </div>
       </HashRouter>
+      </html>
     );
   }
 }
