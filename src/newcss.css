@@ -1,0 +1,221 @@
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 0;
+    opacity:0.9;
+  }
+  
+  html{
+    /*
+    background-image:url("img/cave2.JPG"); */
+  
+   /* background-color:#828282;*/
+    background: linear-gradient( to bottom right, black, white);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  
+  }
+  :root{  
+   --color:#131313;
+  }
+  h2{
+    padding:3px;
+    color:gray;
+  }
+ 
+  #con{
+    padding:30px;
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px; 
+  }
+
+  
+  h1, p, ul, li {
+    font-family: Georgia;
+    color:#D8D3D2;   
+  }
+  h4,h3{
+    color:#E3E1E1;  
+  }
+  h2{
+    margin:200px;  
+    padding:3px;
+    font-family: Georgia;
+  }
+  section{
+    clear:both;
+  }
+  article img{
+    
+      height:300px;
+      background-color:white;
+      padding-right:10px;
+      padding:10px;
+      float:left;
+      
+    }
+
+  #icon{
+    margin:3px;
+  }
+  header{
+    padding:10px;
+    /*border-style: outset;*/
+   padding:40px;  
+   background:var(--color);
+   background:
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+  }
+  header img{
+    width:200px;
+    height:200px;
+    float:left;
+    padding-right:30px;
+  }
+  .header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+  }
+  
+  header h1{
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+  #resume{
+    padding-bottom: 20px;
+  }
+  #hinder img{
+    width:200px;
+   height:350px;
+   float:left;
+   padding:30px;
+  }
+  
+  
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    color:white;
+    border:white solid;
+    padding:5px;
+  }
+  ul.header {
+    background:var(--color);
+    padding: 10px;
+   
+  }
+  ul.header li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    padding-top: 15px;
+    display: inline-block;
+    color:white;
+  }
+  .sidebar  li {
+    font-weight: bold;
+    text-decoration: none;
+ display:block;
+    color:gray;
+    padding:10px;
+ 
+  }
+  .sidebar  li a{
+    text-decoration: none;
+    color:gray;
+    border:BLACK solid;
+    padding:10px;
+    
+    
+  }
+
+
+
+
+  .content {
+  /*  background-color: #FFF;*/
+    padding-top: 0px;
+    
+    overflow:auto;
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+  
+  
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  #about img{
+    float:left;
+  
+  }
+  SocialIcon{
+    position: absolute;
+  }
+  footer{
+     background:var(--color);
+    position:absolute;
+    width: 60%;
+    height:60px;   /* Height of the footer */
+    bottom:-1;
+  /*  border-style: outset;*/ 
+   }
+   #info{
+       color:white;
+   }  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: #ffffff;
+   
+      padding-left: 0%;
+      padding-right: 0%;
+      margin: 0;
+    }
+    footer{
+      width:100%;
+    }
+    header img{
+      width:0px;
+      height:0px;
+    }
+    ul.header li a {
+      padding:8px;
+      padding-top:15px;
+      padding-bottom: 15px;
+    }
+  
+  
+  }
+  
