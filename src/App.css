@@ -94,6 +94,9 @@ header h1{
  float:left;
  padding:30px;
 }
+.header{
+  border-style: outset;
+}
 
 
 ul.header li {
