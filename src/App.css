@@ -142,9 +142,8 @@ SocialIcon{
 }
 footer{
    background:var(--color);
-  position:absolute;
-  width: 60%;
-  height:60px;   /* Height of the footer */
+ 
+ 
   bottom:-1;
   border-style: outset;
   

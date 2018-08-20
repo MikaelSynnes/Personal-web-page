@@ -10,7 +10,7 @@ class Projects extends Component {
     return (
       <div>
         <h2>Projects</h2>
-       <aside>
+
         <ul className="sidebar">
         <li><NavLink to="/projects/aronvessel">AR on the vessel bridge(C#)</NavLink></li>
             <li><NavLink to="/projects/hinder">Hinder Chat application for Android(java)</NavLink></li>
@@ -19,7 +19,7 @@ class Projects extends Component {
             <li><NavLink to="/projects/Perfectworkplace">IssueReporting (Java(Spring))</NavLink></li>
            
           </ul>
-     </aside>
+   
      
      
        

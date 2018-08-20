@@ -17,6 +17,11 @@ body {
     
   
   }
+  img{
+    padding:3px;
+  }
+  
+  
   :root{  
    --color:#131313;
   }
@@ -27,7 +32,13 @@ body {
  
   #con{
     padding:30px;
-    background:
+   /* background:var(--color);*/
+    border-right:outset;
+    border-left:outset;
+   /* background: linear-gradient( to bottom right, #191919, white);*/
+    background:#191919;
+    overflow:auto;
+  /*  background:
     linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
     linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
     linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
@@ -35,7 +46,7 @@ body {
     linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
     linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
     background-color: #131313;
-    background-size: 20px 20px; 
+    background-size: 20px 20px;*/
   }
 
   
@@ -47,8 +58,8 @@ body {
     color:#E3E1E1;  
   }
   h2{
-    margin:200px;  
-    padding:3px;
+
+  
     font-family: Georgia;
   }
   section{
@@ -64,23 +75,15 @@ body {
       
     }
 
-  #icon{
-    margin:3px;
-  }
+ 
   header{
-    padding:10px;
-    /*border-style: outset;*/
-   padding:40px;  
+    
+    border-style: outset;
+   padding:50px;  
    background:var(--color);
-   background:
-  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-  background-color: #131313;
-  background-size: 20px 20px;
+  
+
+
   }
   header img{
     width:200px;
@@ -93,6 +96,7 @@ body {
     width: 100px;
     height: 100px;
     background: #555;
+ 
   }
   
   header h1{
@@ -116,20 +120,29 @@ body {
     list-style-type: none;
     margin: 0;
     color:white;
-    border:white solid;
+    border-right:outset;
+    border-left:outset;
     padding:5px;
+    padding-right:20px;
+    padding-left:20px;
   }
-  ul.header {
+  ul.header { 
     background:var(--color);
     padding: 10px;
+    margin:0px;
+    border-right:outset;
+    border-left:outset;
+
+    /*background-color: #131313;*/  
+ 
    
   }
   ul.header li a {
     color: black;
     font-weight: bold;
     text-decoration: none;
-    padding: 15px;
-    padding-top: 15px;
+  padding: 15px;
+   /* padding-top: 15px;*/
     display: inline-block;
     color:white;
   }
@@ -145,31 +158,13 @@ body {
     text-decoration: none;
     color:gray;
     border:BLACK solid;
-    padding:10px;
-    
-    
+    padding:10px;  
   }
 
 
 
 
-  .content {
-  /*  background-color: #FFF;*/
-    padding-top: 0px;
-    
-    overflow:auto;
-    background:
-    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-    background-color: #131313;
-    background-size: 20px 20px;
-  
-  
-  }
+ 
   .content h2 {
     padding: 0;
     margin: 0;
@@ -183,14 +178,20 @@ body {
   }
   SocialIcon{
     position: absolute;
+    
+  }
+  #icon{
+  
+    margin:3px;
   }
   footer{
      background:var(--color);
-    position:absolute;
-    width: 60%;
-    height:60px;   /* Height of the footer */
+    
+
     bottom:-1;
-  /*  border-style: outset;*/ 
+    border-right:outset;
+    border-left:outset;
+    border-bottom:outset;
    }
    #info{
        color:white;
